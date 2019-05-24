@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API-Weather2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <!--Script Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- section navBar -->
+    <section id="section-nav">
+        <div id="nav-bar">
+            <input onclick="" type="search" name="search-bar" id="search-bar" placeholder="Search...">
+
+            <button onclick="villeSearch()" class="btn" id="button" type="button" value="appel API">Search </button>
+            <!-- attribut value égal à la valeur de la search bar -->
+        </div>
+    </section>
+    <!--Section weather-->
+    <section id="section-weather">
+        <div class="weather-container">
+            <h2>Pays/Ville</h2>
+            <p class="lieu"></p>
+            <p class="timezone"></p>
+            <h2>Temps</h2>
+            <p class="weather"></p>
+            <h2>température</h2>
+            <h5>C°</h5>
+            <p class="temp"></p>
+
+            <h2>Humidité</h2>
+            <p class="humid"></p>
+            <img class="icon" alt="">
+        </div>
+    </section>
+
+
+
+
+    <script src="navbar.js"></script>
+
+</body>
+
+</html>

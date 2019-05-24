@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai", cursive;
+}
+body {
+  background-image: url("./image/Background2.jpg");
+  background-size: 100%;
+}
+#section-nav {
+  position: relative;
+  //   border: black solid 4px;
+  height: 10vh;
+
+  #nav-bar {
+    margin-top: 1%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    #search-bar {
+      background-color: white;
+      position: absolute;
+      height: 5vh;
+      width: 20vw;
+      right: 42%;
+      top: 12%;
+    }
+    .btn {
+      color: white;
+      background-color: rgb(36, 34, 34);
+      position: absolute;
+      top: 16%;
+      right: 35%;
+      width: 5vw;
+    }
+  }
+}
+
+#section-weather {
+  position: relative;
+  height: 60vh;
+  //   border: black solid 4px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  .weather-container {
+    padding-top: 2%;
+    text-align: center;
+    border: 4px dashed white;
+    width: 30%;
+    background: linear-gradient(#656c6d8c, #a82d17);
+  }
+  h2,
+  h5 {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+}

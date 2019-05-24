@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Baloo Bhai", cursive;
+}
+
+body {
+  background-image: url("./image/Background2.jpg");
+  background-size: 100%;
+}
+
+#section-nav {
+  position: relative;
+  height: 10vh;
+}
+
+#section-nav #nav-bar {
+  margin-top: 1%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#section-nav #nav-bar #search-bar {
+  background-color: white;
+  position: absolute;
+  height: 5vh;
+  width: 20vw;
+  right: 42%;
+  top: 12%;
+}
+
+#section-nav #nav-bar .btn {
+  color: white;
+  background-color: #242222;
+  position: absolute;
+  top: 16%;
+  right: 35%;
+  width: 5vw;
+}
+
+#section-weather {
+  position: relative;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#section-weather .weather-container {
+  padding-top: 2%;
+  text-align: center;
+  border: 4px dashed white;
+  width: 30%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#656c6d8c), to(#a82d17));
+  background: linear-gradient(#656c6d8c, #a82d17);
+}
+
+#section-weather h2,
+#section-weather h5 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/*# sourceMappingURL=style.css.map */
